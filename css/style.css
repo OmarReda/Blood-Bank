@@ -1,0 +1,169 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/***************************/
+/* Nav 1 Start */
+
+#Nav1 .nav-item i{
+  color: white;
+  font-size: 14px;
+}
+
+#Nav1 .navbar-brand i{
+  color: white;
+}
+
+#Nav1 .fa-twitter:hover {
+  color: #1489ed;
+}
+
+#Nav1 .fa-facebook-f:hover {
+  color: #3b24ea;
+}
+
+#Nav1 .fa-whatsapp:hover {
+  color: darkgreen;
+}
+
+#Nav1 .fa-instagram:hover {
+  color: red;
+}
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-whatsapp,
+.fa-instagram {
+  transition: color 0.5s;
+}
+
+/* #Nav1 .navbar-nav li:active{
+  color: red;
+} */
+
+/* Nav 1 End */
+/***************************/
+
+
+/***************************/
+/* Nav 2 Start */
+
+#Nav2 .navbar-nav li {
+  border-right: 1px solid lightgray;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+#Nav2 .navbar-nav li.active {
+  color: darkred;
+}
+
+#Nav2 .navbar-nav li:hover{
+  border-bottom: 4px solid darkred;
+  color: darkred;
+}
+
+#Nav2 .signup{
+  color: darkred;
+  background: none;
+  font-size: 18px;
+}
+
+#Nav2 .signup:hover{
+  color: red;
+}
+
+#Nav2 .login{
+  color: darkorange;
+  background: rgb(51, 58, 65);
+  font-size: 18px;
+  padding: 5px 35px 5px 35px;
+  margin-left: 15px;
+  margin-right: 18px;
+  border-radius: 5px;
+}
+
+#Nav2 .login:hover{
+  color: red;
+  transition: color 0.5s;
+}
+
+/* Nav 2 End */
+/***************************/
+
+
+/***************************/
+/* Header Start */
+
+#header{
+  background-image: url(../imgs/header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+
+#header .container{
+  width: 37%;
+  margin-right: 0;
+  padding: 30px 35px 40px 10px;
+  text-align: left;
+}
+
+#header .container h1{
+  color: darkred;
+  margin-top: 100px;
+}
+
+#header .container h4{
+  color: rgb(51, 58, 65);
+  line-height: 1.4em;
+  margin-bottom: 20px;
+}
+
+#header .more{
+  color: darkorange;
+  background: rgb(51, 58, 65);
+  font-size: 18px;
+  padding: 5px 35px 5px 35px;
+  margin-left: 0px 18px 0px 5px;
+  border-radius: 5px;
+}
+
+#header .more:hover{
+  color: red;
+  transition: color 0.5s;
+}
+
+/* Header End */
+/***************************/
+
+
+/***************************/
+/* Sub Header Start */
+
+#sub-header{
+  background-image: url(../imgs/about.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 330px;
+}
+
+#sub-header .container{
+  width: 40%;
+  margin-right: 0;
+  padding: 30px 35px 40px 40px;
+  text-align: left;
+}
+
+#sub-header .container h4{
+  color: rgb(51, 58, 65);
+  line-height: 1.4em;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Sub Header End */
+/***************************/
