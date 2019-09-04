@@ -17,8 +17,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <title>Home Page</title>
 </head>
@@ -32,10 +33,11 @@
                 <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <i class="fas fa-phone-volume"> +20 127 245 6884 &nbsp;| &nbsp; </i>
+                            <i class="fas fa-phone-volume" style="border-right: 1px solid gray;"> +20 127 245 6884
+                                &nbsp; &nbsp; </i>
                         </li>
                         <li class="nav-item">
-                            <i class="far fa-envelope"> InfoBloodBank@gmail.com</i>
+                            <i class="far fa-envelope" style="padding-left: 15px;"> InfoBloodBank@gmail.com</i>
                         </li>
                     </ul>
                 </div>
@@ -51,10 +53,10 @@
                 <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">EN &nbsp; |</a>
+                            <a class="nav-link selected" style="border-right: 1px solid gray;" href="#">EN &nbsp;</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">AR</a>
+                            <a class="nav-link" style="padding-left: 15px;" href="#">AR</a>
                         </li>
                     </ul>
                 </div>
@@ -69,8 +71,8 @@
             <img src="imgs/logo.png" href="#" width="18%"></img>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link selected" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About Us</a>
@@ -109,22 +111,253 @@
     <!-- Header Start -->
     <section id="sub-header">
         <div class="container">
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem autem voluptatibus officiis. Quos corporis, repellendus error officiis.</h4>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem autem voluptatibus officiis. Quos corporis,
+                repellendus error officiis.</h4>
         </div>
     </section>
     <!-- Header End -->
 
+    <!-- Articles Start -->
+    <section id="articles">
+        <div class="container">
+            <h2>Articles</h2>
+            <div class="button-area">
+                <button type="button" class="prev">
+                    <span>‹</span>
+                    <button type="button" class="next">
+                        <span>›</span>
+                    </button>
+            </div>
+            <div class="row ">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/p2.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Disease Protection</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                                dolor minus quibusdam sequi asperiores? Fugiat aut consectetur laudantium ea sed nihil
+                                dolore, in mollitia blanditiis, rem omnis recusandae maiores?</p>
+                            <div class="btn-cont">
+                                <button class="card-btn">Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/p2.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Disease Protection</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                                dolor minus quibusdam sequi asperiores? Fugiat aut consectetur laudantium ea sed nihil
+                                dolore, in mollitia blanditiis, rem omnis recusandae maiores?</p>
+                            <div class="btn-cont">
+                                <button class="card-btn">Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/p2.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Disease Protection</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                                dolor minus quibusdam sequi asperiores? Fugiat aut consectetur laudantium ea sed nihil
+                                dolore, in mollitia blanditiis, rem omnis recusandae maiores?</p>
+                            <div class="btn-cont">
+                                <button class="card-btn">Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/p2.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Disease Protection</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis laborum
+                                dolor minus quibusdam sequi asperiores? Fugiat aut consectetur laudantium ea sed nihil
+                                dolore, in mollitia blanditiis, rem omnis recusandae maiores?</p>
+                            <div class="btn-cont">
+                                <button class="card-btn">Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- Articles End -->
+
+    <!-- Requests Start -->
+    <section id="requests">
+        <div class="title">
+            <h2>Requests</h2>
+            <hr class="line">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <select name="Type" id="">
+                        <option value="" disabled selected>Select Blood Type</option>
+                        <option value="AB+">AB+</option>
+                        <option value="O">O</option>
+                        <option value="B">B</option>
+                    </select>
+                </div>
+                <div class="col-lg-5">
+                    <select name="City" id="">
+                        <option value="" disabled selected>Select City</option>
+                        <option value="Alexandria">Alexandria</option>
+                        <option value="Cairo">Cairo</option>
+                        <option value="Giza">Giza</option>
+                    </select>
+                </div>
+                <div class="search">
+                    <button><i class="col-lg-2 fas fa-search"></i></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="type">
+                                <h2>AB+</h2>
+                            </div>
+                        </div>
+                        <div class="data col-lg-6">
+                            <h4>Name: Ahmed Mohamed</h4>
+                            <h4>Hospital: Andalusia Hospitals</h4>
+                            <h4>City: Cairo</h4>
+                        </div>
+                        <div class="col-lg-3">
+                            <button>Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="type">
+                                <h2>AB+</h2>
+                            </div>
+                        </div>
+                        <div class="data col-lg-6">
+                            <h4>Name: Ahmed Mohamed</h4>
+                            <h4>Hospital: Andalusia Hospitals</h4>
+                            <h4>City: Cairo</h4>
+                        </div>
+                        <div class="col-lg-3">
+                            <button>Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="type">
+                                <h2>AB+</h2>
+                            </div>
+                        </div>
+                        <div class="data col-lg-6">
+                            <h4>Name: Ahmed Mohamed</h4>
+                            <h4>Hospital: Andalusia Hospitals</h4>
+                            <h4>City: Cairo</h4>
+                        </div>
+                        <div class="col-lg-3">
+                            <button>Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-req">
+                <button>More</button>
+            </div>
+        </div>
+    </section>
+    <!-- Requests End -->
+
+    <!-- Call us Start -->
+    <section id="call-us">
+        <div class="layer">
+            <div class="container">
+                <h1>Call Us</h1>
+                <h4>You can call us for your inquiries about any information.</h4>
+                <div class="whats">
+                    <img src="imgs/whats.png" alt="">
+                    <h3>+20 127 245 6884</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call us End -->
+
+    <!-- App Start -->
+    <section id="app">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info">
+                        <h1>Blood Bank Application</h1>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae earum officiis et eligendi nam
+                            harum corporis saepe deserunt.</h3>
+                        <h4>Available On</h4>
+                        <img src="imgs/ios.png" alt="">
+                        <img src="imgs/google.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="app-screen" src="imgs/App.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- App End -->
+
+    <!-- Footer Start -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="foot-info">
+                    <img src="imgs/logo.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos ut sit natus earum ea cum doloremque fugit. Sit non ex suscipit fugiat molestias, ipsa rerum tempore voluptates adipisci rem cum?</p>
+                </div>
+                </div>
+                <div class="col-md-3">
+                    <ul class="menu">
+                        <a href="#index.html"><li>Home</li></a>
+                        <a href="#sub-header"><li>About Us</li></a>
+                        <a href="#articles"><li>Articles</li></a>
+                        <a href="#requests"><li>Requests</li></a>
+                        <a href="#"><li>Who We Are?</li></a>
+                        <a href="#call-us"><li>Contact Us</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="options">
+                        <li><h5>Available On</h5></li>
+                        <li><img src="imgs/ios1.png" alt=""></li>
+                        <li><img src="imgs/google1.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer End -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>

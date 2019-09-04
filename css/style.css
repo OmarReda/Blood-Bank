@@ -10,6 +10,10 @@ body {
   font-size: 14px;
 }
 
+#Nav1 .navbar-nav li .selected {
+  color: red;
+}
+
 #Nav1 .navbar-brand i{
   color: white;
 }
@@ -54,11 +58,12 @@ body {
   padding-left: 5px;
 }
 
-#Nav2 .navbar-nav li.active {
+#Nav2 .navbar-nav li .selected {
   color: darkred;
+  border-bottom: 4px solid darkred; 
 }
 
-#Nav2 .navbar-nav li:hover{
+#Nav2 .navbar-nav li a:hover{
   border-bottom: 4px solid darkred;
   color: darkred;
 }
@@ -166,4 +171,313 @@ body {
 }
 
 /* Sub Header End */
+/***************************/
+
+
+/***************************/
+/* Articles Start */
+
+#articles h2{
+  margin: 40px 0px 40px 0px;
+  color: darkred;
+}
+
+#articles .container .card{
+  padding: 2px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+#articles .container .card h4{
+  color: darkred;
+}
+
+#articles .container .card p{
+  color:rgb(51, 58, 65);
+  margin-bottom: 25px;
+}
+
+#articles .card .card-btn{
+  padding: 5px 40px 5px 40px;
+  border-radius: 5px;
+  border-color: rgb(51, 58, 65);
+  color: white;
+  background-color: rgb(51, 58, 65);
+}
+
+#articles .card .card-btn:hover{
+  color: darkorange;
+  transition: color 0.5s;
+}
+
+#articles .card .btn-cont{
+  text-align: center;
+}
+
+/* Articles End */
+/***************************/
+
+
+/***************************/
+/* Requests Start */
+
+#requests {
+  background-color: rgb(233, 232, 232);
+}
+
+#requests .title h2{
+  text-align: center;
+  color: darkred;
+  margin: 80px 0px 0px 0px;
+}
+
+#requests .title{
+  background-color: white;
+  padding-bottom: 25px;
+}
+
+#requests hr{
+  text-align: center;
+  color: darkred;
+  background-color: darkred;
+  height: 2px;
+  width: 10%;
+}
+
+#requests .row select{
+  width: 80%;
+  height: 35px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+#requests .row .search{
+  background-color: lightgrey;
+  margin-top: 50px;
+  border-radius: 40px;
+  padding-top: 8px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  margin-left: 50px;
+}
+
+#requests .row .row{
+  background-color: white;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#requests .row .row button{
+  padding: 30px 80px 30px 80px;
+  text-align: center;
+  margin: 40px 0px 30px 0px;
+  background-color: lightgrey;
+  border: none;
+  color: darkred;
+  font-size: 22px;
+  border-radius: 5px;
+}
+
+#requests .row .row button:hover{
+  background-color: rgb(51, 58, 65);
+  color: darkorange;
+}
+
+#requests .row .row .data{
+  margin:30px 0px 30px 0px;
+  padding-left: 60px;
+}
+
+#requests .row .row .type{
+  color: darkred;
+  margin: 10px 0px 0px 70px;
+  text-align: center;
+}
+
+#requests .row .row .type h2{
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding: 50px 0px 0px 0px;
+  background-color: lightgrey;
+  border-radius: 100px;
+  border: 2px solid darkred;
+}
+
+#requests .more-req button{
+  background-color: rgb(51, 58, 65);
+  color: white;
+  padding: 5px 50px 5px 50px;
+  border-radius: 5px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#requests .more-req {
+  text-align: center;
+}
+
+#requests .more-req button:hover{
+  color: darkorange;
+  transition: color 0.5s;
+}
+
+/* Requests End */
+/***************************/
+
+/***************************/
+/* Call Us Start */
+
+#call-us {
+  background-image: url(../imgs/call.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+#call-us .layer{
+  background-color: rgba(5, 5, 5, 0.562);
+  height: 500px;
+}
+
+
+#call-us h1{
+  text-align: center;
+  color: white;
+  padding:90px 0px 30px 0px;
+}
+
+#call-us h4{
+  text-align: center;
+  color: white;
+  margin:0px 0px 30px 0px;
+}
+
+#call-us h3{
+  text-align: center; 
+  color: white;
+  margin:10px 0px 30px 60px;
+  padding: 20px 10px 20px 0px;
+  border-radius: 50px;
+  width: 30%;
+  background-color: green;
+}
+
+#call-us .whats{
+  text-align: center; 
+  margin-top: 50px;
+}
+
+#call-us .whats img{
+  display: inline-block;
+  position: absolute;
+}
+
+#call-us .whats h3{
+  display: inline-block;
+}
+
+/* Call Us End */
+/***************************/
+
+/***************************/
+/* App Start */
+
+#app{
+  background-image: url(../imgs/BG-phone.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+#app .info{
+  padding-top: 60px;
+}
+
+#app .info h1{
+  padding-bottom: 20px;
+}
+
+#app .info h3{
+  padding-bottom: 20px;
+  line-height: 1.5em;
+}
+
+#app .info h4{
+  padding-bottom: 20px;
+  margin-left: 30%;
+}
+
+#app .app-screen{
+  padding-top: 50px;
+}
+/* App End */
+/***************************/
+
+/***************************/
+/* Footer Start */
+
+#footer{
+  background-color: rgb(51, 58, 65);
+  height: 320px;
+  color: white;
+}
+
+#footer .foot-info{
+  padding-top: 40px;
+  width: 90%;
+}
+
+#footer .foot-info p{
+  padding-top: 30px;
+}
+
+#footer ul a{
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+#footer ul a li{
+  margin-bottom: 10px;
+}
+
+#footer .menu a:hover{
+  color: rgb(213, 3, 1);
+}
+
+#footer ul{
+  padding-top: 50px;
+  list-style: none;
+  text-align: center;
+}
+
+#footer .options h5{
+  color: rgb(213, 3, 1);
+  padding-bottom: 15px;
+}
+
+#footer .options {
+  margin-left: 30px;
+  text-align: left;
+}
+
+#footer .options img {
+  margin-bottom: 10px;
+}
+
+
+/* Footer End */
 /***************************/
