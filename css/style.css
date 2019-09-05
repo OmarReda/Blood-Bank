@@ -5,7 +5,7 @@ body {
 /***************************/
 /* Nav 1 Start */
 
-#Nav1 .nav-item i{
+#Nav1 .nav-item i {
   color: white;
   font-size: 14px;
 }
@@ -14,7 +14,7 @@ body {
   color: red;
 }
 
-#Nav1 .navbar-brand i{
+#Nav1 .navbar-brand i {
   color: white;
 }
 
@@ -48,7 +48,6 @@ body {
 /* Nav 1 End */
 /***************************/
 
-
 /***************************/
 /* Nav 2 Start */
 
@@ -60,25 +59,25 @@ body {
 
 #Nav2 .navbar-nav li .selected {
   color: darkred;
-  border-bottom: 4px solid darkred; 
+  border-bottom: 4px solid darkred;
 }
 
-#Nav2 .navbar-nav li a:hover{
+#Nav2 .navbar-nav li a:hover {
   border-bottom: 4px solid darkred;
   color: darkred;
 }
 
-#Nav2 .signup{
+#Nav2 .signup {
   color: darkred;
   background: none;
   font-size: 18px;
 }
 
-#Nav2 .signup:hover{
+#Nav2 .signup:hover {
   color: red;
 }
 
-#Nav2 .login{
+#Nav2 .login {
   color: darkorange;
   background: rgb(51, 58, 65);
   font-size: 18px;
@@ -88,7 +87,7 @@ body {
   border-radius: 5px;
 }
 
-#Nav2 .login:hover{
+#Nav2 .login:hover {
   color: red;
   transition: color 0.5s;
 }
@@ -96,11 +95,10 @@ body {
 /* Nav 2 End */
 /***************************/
 
-
 /***************************/
 /* Header Start */
 
-#header{
+#header {
   background-image: url(../imgs/header.jpg);
   background-position: center;
   background-size: cover;
@@ -108,25 +106,25 @@ body {
   height: 550px;
 }
 
-#header .container{
+#header .container {
   width: 37%;
   margin-right: 0;
   padding: 30px 35px 40px 10px;
   text-align: left;
 }
 
-#header .container h1{
+#header .container h1 {
   color: darkred;
   margin-top: 100px;
 }
 
-#header .container h4{
+#header .container h4 {
   color: rgb(51, 58, 65);
   line-height: 1.4em;
   margin-bottom: 20px;
 }
 
-#header .more{
+#header .more {
   color: darkorange;
   background: rgb(51, 58, 65);
   font-size: 18px;
@@ -135,7 +133,7 @@ body {
   border-radius: 5px;
 }
 
-#header .more:hover{
+#header .more:hover {
   color: red;
   transition: color 0.5s;
 }
@@ -143,11 +141,10 @@ body {
 /* Header End */
 /***************************/
 
-
 /***************************/
 /* Sub Header Start */
 
-#sub-header{
+#sub-header {
   background-image: url(../imgs/about.png);
   background-position: center;
   background-size: cover;
@@ -155,14 +152,14 @@ body {
   height: 330px;
 }
 
-#sub-header .container{
+#sub-header .container {
   width: 40%;
   margin-right: 0;
   padding: 30px 35px 40px 40px;
   text-align: left;
 }
 
-#sub-header .container h4{
+#sub-header .container h4 {
   color: rgb(51, 58, 65);
   line-height: 1.4em;
   margin-top: 70px;
@@ -173,31 +170,63 @@ body {
 /* Sub Header End */
 /***************************/
 
-
 /***************************/
 /* Articles Start */
 
-#articles h2{
+#articles h2 {
   margin: 40px 0px 40px 0px;
   color: darkred;
 }
 
-#articles .container .card{
+#articles .container .card img {
+  width: 100%;
+}
+
+#articles .container .card {
   padding: 2px;
   border-radius: 5px;
   margin-right: 20px;
 }
 
-#articles .container .card h4{
+#articles .swiper-container .swiper-button-next{
+  background-image: url(../imgs/arrow.png);
+}
+
+#articles .swiper-container .swiper-button-prev {
+  background-image: url(../imgs/arrow.png);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#articles .container .card .like {
+  position: absolute;
+  top: 15%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(85, 85, 85, 0.678);
+  color: white;
+  font-size: 22px;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+#articles .container .card .like:hover {
+  background-color: darkred;
+}
+
+#articles .container .card h4 {
   color: darkred;
 }
 
-#articles .container .card p{
-  color:rgb(51, 58, 65);
+#articles .container .card p {
+  color: rgb(51, 58, 65);
   margin-bottom: 25px;
 }
 
-#articles .card .card-btn{
+#articles .card .card-btn {
   padding: 5px 40px 5px 40px;
   border-radius: 5px;
   border-color: rgb(51, 58, 65);
@@ -205,18 +234,17 @@ body {
   background-color: rgb(51, 58, 65);
 }
 
-#articles .card .card-btn:hover{
+#articles .card .card-btn:hover {
   color: darkorange;
   transition: color 0.5s;
 }
 
-#articles .card .btn-cont{
+#articles .card .btn-cont {
   text-align: center;
 }
 
 /* Articles End */
 /***************************/
-
 
 /***************************/
 /* Requests Start */
@@ -225,18 +253,18 @@ body {
   background-color: rgb(233, 232, 232);
 }
 
-#requests .title h2{
+#requests .title h2 {
   text-align: center;
   color: darkred;
   margin: 80px 0px 0px 0px;
 }
 
-#requests .title{
+#requests .title {
   background-color: white;
   padding-bottom: 25px;
 }
 
-#requests hr{
+#requests hr {
   text-align: center;
   color: darkred;
   background-color: darkred;
@@ -244,26 +272,27 @@ body {
   width: 10%;
 }
 
-#requests .row select{
+#requests .row select {
   width: 80%;
   height: 35px;
   margin-left: 100px;
   margin-top: 50px;
 }
 
-#requests .row .search{
+#requests .row .search button {
   background-color: lightgrey;
-  margin-top: 50px;
+  margin-top: 45px;
   border-radius: 40px;
-  padding-top: 8px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 40px;
+  height: 45px;
+  width: 45px;
   margin-left: 50px;
 }
 
-#requests .row .row{
+#requests .row .search {
+  text-align: center;
+}
+
+#requests .row .row {
   background-color: white;
   margin-top: 30px;
   padding-top: 20px;
@@ -274,7 +303,7 @@ body {
   border-bottom-right-radius: 10px;
 }
 
-#requests .row .row button{
+#requests .row .row button {
   padding: 30px 80px 30px 80px;
   text-align: center;
   margin: 40px 0px 30px 0px;
@@ -285,23 +314,23 @@ body {
   border-radius: 5px;
 }
 
-#requests .row .row button:hover{
+#requests .row .row button:hover {
   background-color: rgb(51, 58, 65);
   color: darkorange;
 }
 
-#requests .row .row .data{
-  margin:30px 0px 30px 0px;
+#requests .row .row .data {
+  margin: 30px 0px 30px 0px;
   padding-left: 60px;
 }
 
-#requests .row .row .type{
+#requests .row .row .type {
   color: darkred;
   margin: 10px 0px 0px 70px;
   text-align: center;
 }
 
-#requests .row .row .type h2{
+#requests .row .row .type h2 {
   width: 150px;
   height: 150px;
   text-align: center;
@@ -311,7 +340,7 @@ body {
   border: 2px solid darkred;
 }
 
-#requests .more-req button{
+#requests .more-req button {
   background-color: rgb(51, 58, 65);
   color: white;
   padding: 5px 50px 5px 50px;
@@ -326,7 +355,7 @@ body {
   text-align: center;
 }
 
-#requests .more-req button:hover{
+#requests .more-req button:hover {
   color: darkorange;
   transition: color 0.5s;
 }
@@ -345,45 +374,44 @@ body {
   height: 500px;
 }
 
-#call-us .layer{
+#call-us .layer {
   background-color: rgba(5, 5, 5, 0.562);
   height: 500px;
 }
 
-
-#call-us h1{
+#call-us h1 {
   text-align: center;
   color: white;
-  padding:90px 0px 30px 0px;
+  padding: 90px 0px 30px 0px;
 }
 
-#call-us h4{
+#call-us h4 {
   text-align: center;
   color: white;
-  margin:0px 0px 30px 0px;
+  margin: 0px 0px 30px 0px;
 }
 
-#call-us h3{
-  text-align: center; 
+#call-us h3 {
+  text-align: center;
   color: white;
-  margin:10px 0px 30px 60px;
+  margin: 10px 0px 30px 60px;
   padding: 20px 10px 20px 0px;
   border-radius: 50px;
   width: 30%;
   background-color: green;
 }
 
-#call-us .whats{
-  text-align: center; 
+#call-us .whats {
+  text-align: center;
   margin-top: 50px;
 }
 
-#call-us .whats img{
+#call-us .whats img {
   display: inline-block;
   position: absolute;
 }
 
-#call-us .whats h3{
+#call-us .whats h3 {
   display: inline-block;
 }
 
@@ -393,7 +421,7 @@ body {
 /***************************/
 /* App Start */
 
-#app{
+#app {
   background-image: url(../imgs/BG-phone.png);
   background-position: center;
   background-size: cover;
@@ -401,25 +429,25 @@ body {
   height: 500px;
 }
 
-#app .info{
+#app .info {
   padding-top: 60px;
 }
 
-#app .info h1{
+#app .info h1 {
   padding-bottom: 20px;
 }
 
-#app .info h3{
+#app .info h3 {
   padding-bottom: 20px;
   line-height: 1.5em;
 }
 
-#app .info h4{
+#app .info h4 {
   padding-bottom: 20px;
   margin-left: 30%;
 }
 
-#app .app-screen{
+#app .app-screen {
   padding-top: 50px;
 }
 /* App End */
@@ -428,43 +456,43 @@ body {
 /***************************/
 /* Footer Start */
 
-#footer{
+#footer {
   background-color: rgb(51, 58, 65);
   height: 320px;
   color: white;
 }
 
-#footer .foot-info{
+#footer .foot-info {
   padding-top: 40px;
   width: 90%;
 }
 
-#footer .foot-info p{
+#footer .foot-info p {
   padding-top: 30px;
 }
 
-#footer ul a{
+#footer ul a {
   font-size: 20px;
   margin-bottom: 10px;
   text-decoration: none;
   color: white;
 }
 
-#footer ul a li{
+#footer ul a li {
   margin-bottom: 10px;
 }
 
-#footer .menu a:hover{
+#footer .menu a:hover {
   color: rgb(213, 3, 1);
 }
 
-#footer ul{
+#footer ul {
   padding-top: 50px;
   list-style: none;
   text-align: center;
 }
 
-#footer .options h5{
+#footer .options h5 {
   color: rgb(213, 3, 1);
   padding-bottom: 15px;
 }
@@ -478,6 +506,10 @@ body {
   margin-bottom: 10px;
 }
 
-
+#footer .options img:hover {
+  background-color: lightgray;
+  transition: background-color 0.8s;
+  border-radius: 5px;
+}
 /* Footer End */
 /***************************/

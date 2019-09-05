@@ -2,39 +2,38 @@
 
 $(document).ready(function () {
 
-  $('.articles-slider').slick({
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    prevArrow: $('.prev'),
-    nextArrow: $('.next'),
-    responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                infinite: true,
-            }
-        },
-        {
-            breakpoint: 991,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                infinite: true,
-            }
-        },
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        },
-    ]
-});
-
+  var mySwiper = new Swiper('.swiper-container', {
+    slidesPerView: 3,
+    loop: true,
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      1024: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      640: {
+        slidesPerView: 1,
+      },
+      320: {
+        slidesPerView: 1,
+      }
+    }
+  });
 
   ///////////////////////// WOW Animation ////////////////////////////////
 
@@ -50,9 +49,8 @@ $(document).ready(function () {
   wow.init();
 
 
-
-
 });
+
 
 
 
