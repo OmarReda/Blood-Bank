@@ -513,3 +513,32 @@ body {
 }
 /* Footer End */
 /***************************/
+
+
+/* Requests Page Start */
+/*****************************************************************/
+
+#navigator .container .path{
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  font-size: 22px;
+  padding: 10px 20px 10px 30px;
+  margin: 30px 0px 30px 0px;
+  width: 100%;
+}
+
+#requests .page-num{
+  margin-top: 40px;
+  padding-bottom: 0px;
+}
+
+#requests .page-num li a{
+  color: darkred;
+}
+
+#requests .page-num li a:hover{
+  color: white;
+  background-color: darkred
+}
+
+/*****************************************************************/
