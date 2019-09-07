@@ -7,6 +7,7 @@ $(document).ready(function () {
     loop: true,
     effect: 'coverflow',
     grabCursor: true,
+    autoplay:1000,
     centeredSlides: true,
     coverflowEffect: {
       rotate: 50,

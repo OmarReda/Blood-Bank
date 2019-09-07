@@ -587,6 +587,7 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 50px;
+  box-shadow: 2px 2px 5px 5px #e7e6e6;
 }
 
 #login .container form .username,
@@ -645,6 +646,7 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 50px;
+  box-shadow: 2px 2px 5px 5px #e7e6e6;
 }
 
 #sign-up .container form input,
@@ -683,6 +685,265 @@ body {
 #sign-up .container form .reg-group{
   text-align: center;
   margin-top: 30px;
+}
+
+/*****************************************************************/
+
+
+
+/* Who we are Page Start */
+/*****************************************************************/
+
+#who .container img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#who .container {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 77%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 5px 5px #e7e6e6;
+}
+
+#who .container p{
+  margin: 30px 20px 0px 20px;
+  font-size: 16px;
+  color: gray;
+  text-align: justify;
+}
+
+/*****************************************************************/
+
+
+
+/* Contact Page Start */
+/*****************************************************************/
+
+#contact .container img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 60%;
+}
+
+#contact .container .call{
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 30px;
+  margin: 0px 30px 40px 45px; 
+  box-shadow: 2px 2px 5px 5px #e7e6e6;
+}
+
+#contact .container .info{
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 30px;
+  margin: 0px 0px 40px 0px; 
+  box-shadow: 2px 2px 5px 5px #e7e6e6;
+}
+
+#contact .container .col-md-6{
+  max-width: 45%;
+}
+
+#contact .container .call hr{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+#contact .container .call h4{
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+#contact .container .call h3{
+  margin: 40px 0px 30px 0px;
+  text-align: center;
+  color: darkred;
+}
+
+#contact .container .call .icons{
+  text-align: center;
+}
+
+#contact .container .call .icons .fab{
+  padding: 0px 15px 0px 15px;
+}
+
+#contact .container .call .icons i:hover{
+  transform: translate(0,-10px);
+  -webkit-transform: translate(0,-10px);
+  -o-transform: translate(0,-10px); 
+  -moz-transform: translate(0,-10px);
+  transition-delay: 0.1s;
+  transition-duration: 0.5s;
+}
+
+#contact .container .call .fa-facebook-square{
+  color: darkblue;
+}
+
+#contact .container .call .fa-whatsapp-square{
+  color: darkgreen;
+}
+#contact .container .call .fa-twitter-square{
+  color: blue;
+}
+#contact .container .call .fa-youtube-square{
+  color: darkred;
+}
+#contact .container .call .fa-google-plus-square{
+  color: orangered;
+}
+
+#contact .container .title{
+  text-align: center;
+  background-color: darkred;
+  color: white;
+  padding-top: 12px;
+  border-top-right-radius: 5px;
+  border-top-Left-radius: 5px;
+  font-size: 28px;
+  height: 70px;
+}
+
+#contact .container form input{
+  width: 85%;
+  font-size: 20px;
+  height: 50px;
+  margin: 20px 0px 0px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid lightgray;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+#contact .container form textarea{
+  width: 85%;
+  font-size: 20px;
+  margin: 20px 0px 0px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid lightgray;
+  padding-left: 10px;
+  border-radius: 5px;
+  resize: none;
+}
+
+#contact .container form button{
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px 40px 10px 40px; 
+  margin-top: 5px;
+  background-color: darkred;
+  color: white;
+}
+
+#contact .container form button:hover{
+  background-color: rgba(9, 0, 29, 0.781);
+  color: white;
+}
+
+#contact .container form .reg-group{
+  text-align: center;
+  margin-top: 30px;
+}
+/*****************************************************************/
+
+
+/* Article Page Start */
+/*****************************************************************/
+
+#article .container .head-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 60%;
+  border: 10px solid rgb(226, 226, 226);
+}
+
+
+#article .container .details-container{
+  border: 1px solid lightgray;
+  padding-bottom: 30px;
+}
+
+#article .container .details-container p{
+  margin: 30px 30px 20px 30px;
+  font-size: 20px;
+}
+
+#article .container .details-container a{
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+#article .container .icons {
+  padding: 10px 0px 0px 30px;
+}
+
+#article .container .icons .fab{
+  padding: 0px 15px 0px 0px;
+}
+
+#article .container .icons i:hover{
+  transform: translate(0,-10px);
+  -webkit-transform: translate(0,-10px);
+  -o-transform: translate(0,-10px); 
+  -moz-transform: translate(0,-10px);
+  transition-delay: 0.1s;
+  transition-duration: 0.5s;
+}
+
+#article .container .fa-facebook-square{
+  color: darkblue;
+}
+
+#article .container .fa-whatsapp-square{
+  color: darkgreen;
+}
+
+#article .container .fa-twitter-square{
+  color: blue;
+}
+
+#article .container .fa-youtube-square{
+  color: darkred;
+}
+
+#article .container .fa-google-plus-square{
+  color: orangered;
+}
+
+#article .container .details-container .title{
+  text-align: center;
+  background-color: darkred;
+  color: white;
+  padding-top: 12px;
+  border-top-right-radius: 5px;
+  border-top-Left-radius: 5px;
+  font-size: 28px;
+  height: 70px;
+}
+
+#article #articles{
+  margin-bottom: 90px;
 }
 
 /*****************************************************************/
