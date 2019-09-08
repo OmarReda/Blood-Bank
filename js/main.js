@@ -6,8 +6,8 @@ $(document).ready(function () {
     slidesPerView: 3,
     loop: true,
     effect: 'coverflow',
+    autoplay: true,
     grabCursor: true,
-    autoplay:1000,
     centeredSlides: true,
     coverflowEffect: {
       rotate: 50,
