@@ -99,7 +99,7 @@ body {
 /* Header Start */
 
 #header {
-  background-image: url(../imgs/header.jpg);
+  background-image: url(../imgs/header2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -145,22 +145,20 @@ body {
 /* Sub Header Start */
 
 #sub-header {
-  background-image: url(../imgs/about.png);
-  background-position: center;
+  background-image: url(../imgs/1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 330px;
+  height: 400px;
 }
 
 #sub-header .container {
-  width: 40%;
-  margin-right: 0;
-  padding: 30px 35px 40px 40px;
-  text-align: left;
+  width: 55%;
+  margin-right: 40px;
+  padding: 20px 35px 40px 40px;
 }
 
-#sub-header .container h4 {
-  color: rgb(51, 58, 65);
+#sub-header .container h3 {
+  color: white;
   line-height: 1.4em;
   margin-top: 70px;
   margin-bottom: 20px;
@@ -196,6 +194,21 @@ body {
   background-image: url(../imgs/arrow.png);
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+}
+
+#articles .container .card .like {
+  position: absolute;
+  top: 15%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(85, 85, 85, 0.678);
+  color: white;
+  font-size: 22px;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
 }
 
 #articles .container .card .like {
